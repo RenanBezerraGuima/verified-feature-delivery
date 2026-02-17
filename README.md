@@ -27,6 +27,10 @@ $verified-feature-delivery
 
 Then follow the workflow in `SKILL.md` and use the reference docs for templates and thresholds.
 
+## Compatibility
+
+This skill is designed for both humans and coding agents. The core workflow in `SKILL.md` and `references/` is provider-agnostic. Files under `agents/` are adapter metadata for specific ecosystems (for example, `agents/openai.yaml`).
+
 ## Repository Scope
 
 This repository stores only the skill definition and supporting references so it can be versioned and published independently.
