@@ -1,11 +1,11 @@
 # verified-feature-delivery
 
-`verified-feature-delivery` is a Codex skill for building or changing software with verifiable correctness. It combines behavior framing with the human client, TDD implementation, and explicit quality gates with evidence reporting.
+`verified-feature-delivery` is a reusable skill for building or changing software with verifiable correctness. It combines behavior framing with the human client, TDD implementation, and explicit quality gates with evidence reporting.
 
 ## What It Includes
 
 - `SKILL.md`: core workflow and guardrails
-- `agents/openai.yaml`: agent-facing metadata and default prompt
+- `agents/openai.yaml`: agent metadata and default prompt (adaptable to other providers)
 - `references/`: templates and policies for behavior framing, risk classification, quality gates, failure handling, and evidence reporting
 
 ## Core Workflow
