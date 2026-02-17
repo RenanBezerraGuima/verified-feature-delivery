@@ -1,0 +1,4 @@
+interface:
+  display_name: "verified-feature-delivery"
+  short_description: "Behavior-first tested delivery"
+  default_prompt: "Use $verified-feature-delivery to frame client behavior, implement test-first, and deliver coverage-backed evidence."
